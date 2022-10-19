@@ -1,12 +1,15 @@
 window.onload = async () => {
-  let words = await fetch("data/bee3plain.txt").then(e => e.text()).split("\n"); // although the DictionaryAPI may not have spellcheck
+  let plain_words = await fetch("data/bee3plain.txt").then(e => e.text()).split("\n");
+  let words = await fetch("data/bee3.txt").then(e => e.text()).split("\n");
   let words_number = words.length;
   
-  function generate_word() {
-    return words[Math.floor(Math.random() * words_number)];
+  function generate_word_index() {
+    return Math.floor(Math.random() * words_number);
   }
   
   let current_word;
+  let current_word_index;
+  let current_plain_word;
   
   let current_word_audio;
   
@@ -23,10 +26,12 @@ window.onload = async () => {
     // fill in for APIKEY
   }
   
+  let audio_letter_regex = /^[a-zA-Z]/;
+  
   function format_audio(audio) {
     if (audio.startswith("bix")) return "bix";
     else if (audio.startswith("gg")) return "gg";
-    else if (/^[a-zA-Z]/.test(audio)) return audio[0];
+    else if (audio_letter_regex.test(audio)) return audio[0];
     else return "number";
   }
   
@@ -36,10 +41,34 @@ window.onload = async () => {
   }
 
   async function load_word() {
-    current_word = generate_word();
+    current_word_index = generate_word_index();
+    current_word = words[current_word_index];
+    current_plain_word = plain_words[current_word_index]
     process_data(fetch_word());
     play_word();
   }
   
-  // handle input (when you press enter, check work; when you click on listen again, play the audio again; when you click on new word, give them a new word and just do load_word all over again)
+  let non_alpha_regex = /[^a-zA-Z]/;
+  
+  function clean_word(word) {
+    return word.replace(non_alpha_regex, "").toLowerCase();
+  }
+  
+  function check_word() {
+    if (clean_word(document.getElementById("word").value) == current_plain_word) {
+      // notify user of success, give them a new problem
+    } else {
+      // allow user to see what was the FIRST WRONG LETTER, do not necessarily give them the right answer
+    }
+  }
+  
+  document.getElementById("word").addEventListener("keypress", e => {
+    if (event.key === "Enter") check_word();
+  });
+  
+  document.getElementById("new").addEventListener("click", () => {
+    load_word();
+  });
+  
+  // handle input (when you click on listen again, play the audio again)
 }
