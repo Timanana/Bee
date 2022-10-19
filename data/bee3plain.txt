@@ -33,7 +33,7 @@ intubated
 counterfeit
 antidote
 pomade
-Manhattan
+manhattan
 humbug
 embossed
 smite
@@ -50,8 +50,8 @@ apex
 subsidence
 effigy
 vestments
-Lithuania
-Azores
+lithuania
+azores
 tankard
 starboard
 maneuverable
@@ -60,7 +60,7 @@ blasphemous
 chemotherapy
 proscribed
 emigrate
-Zimbabwe
+zimbabwe
 impudence
 oncologist
 inaudible
@@ -69,16 +69,16 @@ mullioned
 benighted
 philology
 prophetically
-cul-de-sac
-pell-mell
-Sanskrit
+culdesac
+pellmell
+sanskrit
 parathas
 rejoinder
 preternaturally
 canid
 forsooth
 masa
-Leander
+leander
 pneumonia
 subservient
 mercenary
@@ -95,59 +95,59 @@ assimilation
 conjugate
 commemoration
 conifers
-Beijing
+beijing
 architrave
 andromeda
-Spandau
+spandau
 estampies
-Penelope
+penelope
 roulette
 lustrum
-Arcturus
+arcturus
 hobbledehoy
 miscellaneous
 sackbuts
 tilapia
 caparisoned
 doppelganger
-Piraeus
-aye-aye
+piraeus
+ayeaye
 trilby
-Jicarilla
+jicarilla
 thurible
-Vesuvian
+vesuvian
 saltarellos
 chatelaine
 cuirass
 chachalacas
 urad
-hurdy-gurdy
-Alhambra
+hurdygurdy
+alhambra
 kumkum
 kirpan
-Sikhism
+sikhism
 cirrhosis
-Bangalore
+bangalore
 cirque
-nom de plume
+nomdeplume
 undine
 marguerite
-Tamil
+tamil
 garderobe
 clerisy
 nares
-Andalusian
+andalusian
 carillon
 cortege
-Gaels
+gaels
 fado
-Ayurvedic
+ayurvedic
 chiasmus
-Camelot
+camelot
 imaret
 cornichon
 devastavit
-Mediterranean
+mediterranean
 longevous
 digerati
 solecism
@@ -156,7 +156,7 @@ ravigote
 inchoate
 judoka
 vaccary
-Adelaide
+adelaide
 unwonted
 tazza
 damson
@@ -185,7 +185,7 @@ agnolotti
 ballabile
 draegerman
 prescient
-Fribourg
+fribourg
 tenon
 nubilous
 iatrogenic
@@ -198,7 +198,7 @@ thalamus
 gyttja
 jibboom
 vestigial
-Orwellian
+orwellian
 cabaletta
 hesped
 umami
@@ -215,7 +215,7 @@ polemic
 paladin
 totipotency
 agnomen
-Bauhaus
+bauhaus
 sacerdotal
 skeuomorph
 binturong
@@ -224,7 +224,7 @@ lipophilic
 codicil
 coulomb
 violaceous
-Rorschach
+rorschach
 arthralgia
 desman
 jacaranda
@@ -237,7 +237,7 @@ renminbi
 interferon
 sedulous
 veloute
-Aesopian
+aesopian
 frigate
 enoptromancy
 satiety
@@ -262,7 +262,7 @@ quattrocento
 millegrain
 canaille
 verisimilitude
-Keynesian
+keynesian
 akaryote
 azulejo
 hauberk
@@ -272,14 +272,14 @@ cephalopod
 pulchritude
 pekoe
 patois
-Rubicon
-Truckee
+rubicon
+truckee
 aerophilatelic
 ankh
 contumelious
 vicissitudes
 lilliputian
-Sbrinz
+sbrinz
 kathakali
 cozen
 oxalis
@@ -297,7 +297,7 @@ palaver
 luthier
 yttriferous
 vermeil
-Ouagadougou
+ouagadougou
 bibliopegist
 plagiarism
 holobenthic
@@ -308,7 +308,7 @@ boulevardier
 quokka
 lidocaine
 contretemps
-a posteriori
+aposteriori
 scaberulous
 anaglyphy
 realpolitik
@@ -319,14 +319,14 @@ vigneron
 tannined
 spiedini
 anhinga
-jai alai
-Rastafarian
+jaialai
+rastafarian
 succussion
 avifauna
 joropo
 toxicosis
 agitprop
-Achernar
+achernar
 cassock
 meringue
 mackinaw
@@ -338,9 +338,9 @@ macaque
 lassitude
 oeuvre
 altazimuth
-Castilian
+castilian
 trichinosis
-Gruyere
+gruyere
 proprioceptive
 oppugn
 macropterous
@@ -357,7 +357,7 @@ pompeii
 oviparous
 mangonel
 coalescence
-Plantagenet
+plantagenet
 bauxite
 kakapo
 pelagial
@@ -374,7 +374,7 @@ wahine
 grissino
 coterie
 sylph
-Cincinnati
+cincinnati
 diastole
 mediobrome
 demurrage
@@ -409,41 +409,41 @@ scrivener
 dysrhythmia
 dragee
 choucroute
-hsaing-waing
+hsaingwaing
 stevedore
 harangue
 niveau
 rouille
 rescissible
-Jungian
-Groenendael
+jungian
+groenendael
 facile
 chrysolite
 execrable
 hangul
 cartouches
-Nicoise
+nicoise
 julienne
 moiety
 pastitsio
 modiste
 deuterium
-Icarian
+icarian
 pappardelle
-Sahel
+sahel
 bibelot
 telegnosis
 loupe
 oleiculture
 ruelle
-Ushuaia
+ushuaia
 redingote
 adscititious
 hummock
 internecine
 duxelles
 mesial
-Feldenkrais
+feldenkrais
 bailiwick
 bozzetto
 coiffure
@@ -456,29 +456,29 @@ kichel
 semaphore
 gambol
 angiitis
-Teutonic
-Conestoga
+teutonic
+conestoga
 zeitgeist
 heinousness
 nacelle
 rupicolous
-Pythagorean
+pythagorean
 kepi
 ushabti
 puchero
 nival
 ascites
-Veronique
+veronique
 planetesimal
 taoiseach
 obeisant
 whippoorwill
-Ficus
+ficus
 agelicism
 subrident
 ethylene
 flaneur
-Ponzi
+ponzi
 teneramente
 styptic
 sopapilla
@@ -499,7 +499,7 @@ hepatectomy
 bloviate
 seine
 galapago
-au courant
+aucourant
 crepuscular
 theca
 croustade
@@ -513,7 +513,7 @@ leberwurst
 daguerreotype
 yakitori
 pejorate
-Aitutakian
+aitutakian
 parterre
 rondeau
 atlatl
@@ -528,13 +528,13 @@ supercilious
 dysphasia
 kugel
 topazolite
-trompe l’oeil
+trompeloeil
 ailette
 fetticus
 rocaille
 couverture
 lemniscus
-ad nauseam
+adnauseam
 ganache
 sauger
 kanban
@@ -547,11 +547,11 @@ hyssop
 naumachia
 focaccia
 pahoehoe
-Kjeldahl
+kjeldahl
 rubefacient
 halcyon
 corrigenda
-Zanni
+zanni
 nonage
 beurre
 jicama
@@ -575,9 +575,9 @@ otiose
 megacephalic
 souchong
 poltroon
-Freudian
+freudian
 floruit
-Bunyanesque
+bunyanesque
 exsect
 champignon
 bahuvrihi
@@ -594,7 +594,7 @@ zortzico
 teratism
 flagellum
 panegyric
-hoi polloi
+hoipolloi
 sirenian
 nescience
 blatherskite
@@ -604,7 +604,7 @@ camembert
 ecchymosis
 oppidan
 decastich
-Naugahyde
+naugahyde
 lefse
 beccafico
 amphistylar
@@ -621,9 +621,9 @@ rafflesia
 ranunculus
 pistou
 scintillation
-Bolognese
+bolognese
 farrago
-coup de grace
+coupdegrace
 tourelle
 notturno
 ginglymus
@@ -647,13 +647,13 @@ boudin
 bucatini
 reboation
 haupia
-Keplerian
+keplerian
 codswallop
 hauteur
 camarilla
 nidicolous
 oxyacetylene
-Humboldt
+humboldt
 hellebore
 transhumance
 phloem
@@ -692,7 +692,7 @@ farfalle
 ogival
 stretto
 coccygeal
-Strelitzia
+strelitzia
 tachyon
 piccata
 isagoge
@@ -710,7 +710,7 @@ mortadella
 stanchion
 spirulina
 eleemosynary
-force majeure
+forcemajeure
 ossicle
 anemone
 alpargata
@@ -724,7 +724,7 @@ tryptophan
 neophyte
 buffa
 clavichord
-de rigueur
+derigueur
 secant
 comanchero
 meiosis
@@ -735,11 +735,11 @@ psoriasis
 bavardage
 coulibiac
 xyloglyphy
-Aramaic
+aramaic
 anathema
 basilica
 rajpramukh
-Chalcolithic
+chalcolithic
 rinceau
 filar
 bhangra
@@ -782,7 +782,7 @@ tamarack
 puerilely
 obloquy
 dhole
-Sangamon
+sangamon
 outre
 ululate
 sororal
@@ -800,10 +800,10 @@ tomography
 effleurage
 chastushka
 bergere
-Erewhonian
+erewhonian
 rhyton
 orogeny
-Pepysian
+pepysian
 esplanade
 gesellschaft
 tamari
@@ -813,7 +813,7 @@ tmesis
 clerihew
 tsukupin
 katakana
-Parmentier
+parmentier
 rugose
 brume
 hiortdahlite
@@ -830,9 +830,9 @@ aquiclude
 demitasse
 tomalley
 bouffant
-bas-relief
+basrelief
 rhizome
-Wensleydale
+wensleydale
 erubescent
 estovers
 rembrandt
@@ -847,36 +847,36 @@ furuncle
 pongee
 acoel
 acral
-Koine
+koine
 weka
 haplography
-Tchefuncte
+tchefuncte
 becquerel
 darnel
 giallolino
 krausen
-Castalia
+castalia
 nahcolite
 telamon
 uraeus
 teledu
 gattine
 mele
-Marathi
+marathi
 nuciform
 grandrelle
 bordereaux
 rambla
 tullibee
 guichet
-Guarnerius
+guarnerius
 unakite
 azotea
 gabbro
 gegenschein
 hebdomadal
 gypsophila
-koh-i-noor
+kohinoor
 nocive
 cataphora
 blastema
@@ -898,21 +898,21 @@ lierre
 porwigle
 portugais
 ligas
-Osloite
+osloite
 sciolistic
 seraya
 janthina
-Skeltonic
+skeltonic
 balata
 balbriggan
 affeer
 pomology
-Svengali
+svengali
 escheator
 dogana
 toorie
 exchequer
-habeas corpus
+habeascorpus
 kerril
 pudibund
 toril
@@ -928,71 +928,71 @@ crokinole
 anicca
 batamote
 yabbies
-Deseret
-Djibouti
-Tegucigalpa
-Llullaillaco
-Pyxis
-Bezier curve
-Beauceron
-ni-Vanuatu
-Vulcan
+deseret
+djibouti
+tegucigalpa
+llullaillaco
+pyxis
+beziercurve
+beauceron
+nivanuatu
+vulcan
 anabathmoi
 selah
 cirri
-Oort cloud
+oortcloud
 cobalamin
-amuse-gueule
+amusegueule
 anent
 abaculus
-Dvorak
-sous vide
-Nethinim
-Rayleigh wave
-Gaia
-Ner Tamid
+dvorak
+sousvide
+nethinim
+rayleighwave
+gaia
+nertamid
 cathect
-mange-tout
+mangetout
 whakapapa
-Astur
-Casimir effect
-Devanagari
+astur
+casimireffect
+devanagari
 bismillah
 deceleron
-Ardipithecus
-Equatoguinean
+ardipithecus
+equatoguinean
 limacon
-Kannada
-Bundt
-Strigolniki
-Bavarian cream
-hysteron proteron
+kannada
+bundt
+strigolniki
+bavariancream
+hysteronproteron
 rooseveltite
 temalacatl
 darmstadtium
-Eris
+eris
 flehmen
-au bleu
-pou sto
+aubleu
+pousto
 kapparah
-Kuiper Belt
-Quaoar
+kuiperbelt
+quaoar
 agate
-art brut
-banh mi
+artbrut
+banhmi
 attacca
-Ryukyu
+ryukyu
 kalopanax
-derring-do
-Alfven
+derringdo
+alfven
 virga
-ab aeterno
-Caracas
+abaeterno
+caracas
 indicia
-Huallaga
+huallaga
 kufi
-Novanglian
-una corda
+novanglian
+unacorda
 triduum
 wapiti
 galena
@@ -1000,102 +1000,102 @@ gyokuro
 luftmensch
 aggrandizement
 battue
-Tok Pisin
+tokpisin
 dvandva
 ivermectin
 coulrophobia
-ancien regime
+ancienregime
 deathin
 zowie
 colocate
-Aglaia
-Apostolici
+aglaia
+apostolici
 ubiquinone
-Gurmukhi
-Burkinabe
+gurmukhi
+burkinabe
 ciliopathy
 logothete
 grobian
-rond de jambe
+ronddejambe
 kyphoplasty
-Aten
+aten
 catjang
 neem
-amour propre
-Sagittarius
+amourpropre
+sagittarius
 hordeolum
-trous-de-loup
-vis-a-vis
-Latinxua
-Barnumesque
+trousdeloup
+visavis
+latinxua
+barnumesque
 medulla
 aughts
 carnitine
 ahuehuete
 hominin
-***La Tene
-Gaspesian
+latene
+gaspesian
 samsara
-Dene
-ubi sunt
-a la grecque
+dene
+ubisunt
+alagrecque
 galatea
-tic douloureux
+ticdouloureux
 calusar
 graywacke
-Panchen Lama
-pot-au-feu
+panchenlama
+potaufeu
 rubaiyat
 cohosh
 alleluiatic
-ca’canny
-Theravada
-Hippolyta
-Anno Hegirae
+cacanny
+theravada
+hippolyta
+annohegirae
 moissanite
 massig
-Mirach
-Dubhe
-Baucis
-Firbolg
-Panathenaea
-Furneaux
-Enoch Arden
-Herodotean
-Schedar
-taedium vitae
-Shawwal
-point d’appui
-fete champetre
-pas seul
-roi faineant
+mirach
+dubhe
+baucis
+firbolg
+panathenaea
+furneaux
+enocharden
+herodotean
+schedar
+taediumvitae
+shawwal
+pointdappui
+fetechampetre
+passeul
+roifaineant
 fatshedera
-Bernoulli effect
-Ishihara test
-Beche-de-mer
-je ne sais quoi
-witch of Agnesi
-Robigalia
-Bartokian
-Patripassianism
-hei-tiki
-Saoshyant
-Ahura Mazda
-Zdarsky tent
-Menaia
-Metonic cycle
-Ardhamagadhi
+bernoullieffect
+ishiharatest
+bechedemer
+jenesaisquoi
+witchofagnesi
+robigalia
+bartokian
+patripassianism
+heitiki
+saoshyant
+ahuramazda
+zdarskytent
+menaia
+metoniccycle
+ardhamagadhi
 bhikshuni
 svarabhakti
-poudre B
-Barylambda
+poudreb
+barylambda
 macushla
-succes fou
-Kitksan
-Apabhramsa
-Euroclydon
-Taal
-Cotoneaster
+succesfou
+kitksan
+apabhramsa
+euroclydon
+taal
+cotoneaster
 akkum
 chorten
 cacoethes
@@ -1105,30 +1105,30 @@ tinamou
 acicula
 cacaxte
 aegrotat
-Typhoean
+typhoean
 cynocephali
 thuluth
 torii
-Nabal
+nabal
 ahuatle
-Guidonian
-Aegilops
-Hsia
+guidonian
+aegilops
+hsia
 pareidolia
-Mandelbrot set
+mandelbrotset
 skerrick
 tusche
-Terre Haute
-Geatish
-Deimos
+terrehaute
+geatish
+deimos
 carcajou
 pschent
-Esau
+esau
 esclandre
 orpheon
-Caerphilly
-Carrickmacross
-Quonset
-pret-a-porter
+caerphilly
+carrickmacross
+quonset
+pretaporter
 lebkuchen
-cire perdue
+cireperdue
