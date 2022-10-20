@@ -44,7 +44,7 @@ window.onload = async () => {
   let non_alpha_regex = /[^a-zA-Z]/g;
   
   function clean_word(word) {
-    return word.replaceAll(non_alpha_regex, "").toLowerCase().normalize("NFD").replaceAll(/[\u0300-\u036f]/g, "");
+    return word.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replaceAll(non_alpha_regex, "").toLowerCase();
   }
   
   function process_data(data) {
