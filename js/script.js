@@ -1,6 +1,6 @@
 window.onload = async () => {
-  let plain_words = await fetch("data/bee3plain.txt").then(e => e.text()).split("\n");
-  let words = await fetch("data/bee3.txt").then(e => e.text()).split("\n");
+  let plain_words = await fetch("data/bee3plain.txt").then(e => e.text()).then(e => e.split("\n"));
+  let words = await fetch("data/bee3.txt").then(e => e.text()).then(e => e.split("\n"));
   let words_number = words.length;
   
   function generate_word_index() {
