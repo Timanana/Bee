@@ -55,7 +55,7 @@
 //     current_word_index = generate_word_index();
 //     current_word = words[current_word_index];
 //     current_plain_word = plain_words[current_word_index];
-//     process_data(fetch_word());
+//     process_data(await fetch_word());
 //     play_word();
 //   }
   
@@ -99,10 +99,12 @@ window.onload = async () => {
   let current_word_definitions;
   
   function assign_word_audio(file) {
+    console.log("audio assigned");
     current_word_audio = new Audio(file);
   }
   
   function play_word() {
+    console.log("audio played");
     current_word_audio.play();
   }
   
