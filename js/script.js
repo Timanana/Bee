@@ -71,7 +71,7 @@ window.onload = async () => {
   let non_alpha_regex = /[^a-zA-Z]/;
   
   function clean_word(word) {
-    return word.replace(non_alpha_regex, "").toLowerCase();
+    return word.replaceAll(non_alpha_regex, "").toLowerCase();
   }
   
   function check_word() {
@@ -85,6 +85,12 @@ window.onload = async () => {
   
   document.getElementById("word").addEventListener("keypress", e => {
     if (event.key === "Enter") check_word();
+  });
+  
+  document.getElementById("submit").addEventListener("keypress", check_word);
+  
+  document.getElementById("fail").addEventListener("click", () => {
+    document.getElementById("word").value = current_word;
   });
   
   document.getElementById("new").addEventListener("click", () => {
