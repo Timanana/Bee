@@ -129,6 +129,7 @@ window.onload = async () => {
     current_word = "voluminous";
     current_plain_word = "voluminous";
     process_data();
+    document.getElementById("word").value = "";
     setTimeout(play_word, 2000);
   }
   
