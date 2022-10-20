@@ -44,17 +44,25 @@ window.onload = async () => {
   }
   
   function process_data(data) {
-    let audio = data[0].hwi.prs[0].sound.audio;
-    assign_word_audio(`https://media.merriam-webster.com/audio/prons/en/us/mp3/${format_audio(audio)}/${audio}.mp3`);
+    try {
+      let audio = data[0].hwi.prs[0].sound.audio;
+      assign_word_audio(`https://media.merriam-webster.com/audio/prons/en/us/mp3/${format_audio(audio)}/${audio}.mp3`);
     
-    display_word_definitions(data[0].shortdef);
+      display_word_definitions(data[0].shortdef);
+      
+      return true;
+    } catch {
+      load_word();
+      
+      return false;
+    }
   }
 
   async function load_word() {
     current_word_index = generate_word_index();
     current_word = words[current_word_index];
     current_plain_word = plain_words[current_word_index];
-    process_data(await fetch_word());
+    if (!process_data(await fetch_word())) return;
     setTimeout(play_word, 1500);
   }
   
