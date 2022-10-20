@@ -65,10 +65,10 @@ window.onload = async () => {
     current_word = words[current_word_index];
     current_plain_word = plain_words[current_word_index];
     if (!process_data(await fetch_word())) return;
-    setTimeout(play_word, 1500);
+    setTimeout(play_word, 1000);
   }
   
-  let non_alpha_regex = /[^a-zA-Z]/;
+  let non_alpha_regex = /[^a-zA-Z]/g;
   
   function clean_word(word) {
     return word.replaceAll(non_alpha_regex, "").toLowerCase();
