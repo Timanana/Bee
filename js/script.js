@@ -44,10 +44,10 @@ window.onload = async () => {
   }
   
   function process_data(data) {
-    let audio = data.hwi.prs[0].sound.audio;
+    let audio = data[0].hwi.prs[0].sound.audio;
     assign_word_audio(`https://media.merriam-webster.com/audio/prons/en/us/mp3/${format_audio(audio)}/${audio}.mp3`);
     
-    display_word_definitions(data.shortdef);
+    display_word_definitions(data[0].shortdef);
   }
 
   async function load_word() {
