@@ -99,12 +99,10 @@ window.onload = async () => {
   let current_word_definitions;
   
   function assign_word_audio(file) {
-    console.log("audio assigned");
     current_word_audio = new Audio(file);
   }
   
   function play_word() {
-    console.log("audio played");
     current_word_audio.play();
   }
   
@@ -159,4 +157,6 @@ window.onload = async () => {
   document.getElementById("listen").addEventListener("click", () => {
     play_word();
   });
+
+  load_word();
 }
