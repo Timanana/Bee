@@ -87,7 +87,7 @@
 //   });
 
 //   document.getElementById("begin").addEventListener("click", () => {
-//     document.getElementById("bee").style.display = "visible";
+//     document.getElementById("bee").style.display = "block";
 //     load_word();
     
 //     document.getElementById("begin").remove();
@@ -164,7 +164,7 @@ window.onload = async () => {
   });
   
   document.getElementById("begin").addEventListener("click", () => {
-    document.getElementById("bee").style.display = "visible";
+    document.getElementById("bee").style.display = "block";
     load_word();
     
     document.getElementById("begin").remove();
