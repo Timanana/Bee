@@ -7,7 +7,7 @@ window.onload = async () => {
   }
   
   let current_word;
-  let current_plain_word;
+  let acceptable_words;
   
   let current_word_audio;
   
@@ -54,7 +54,7 @@ window.onload = async () => {
     
       display_word_definitions(data[0].shortdef);
       
-      current_plain_word = clean_word(data[0].meta.id)
+      acceptable_words = data[0].meta.stems.map(word => clean_word(word));
       
       return true;
     } catch {
@@ -73,7 +73,7 @@ window.onload = async () => {
   }
   
   function check_word() {
-    if (clean_word(document.getElementById("word").value) == current_plain_word) {
+    if (acceptable_words.includes(clean_word(document.getElementById("word").value))) {
       correct_audio.play();
       load_word();
     } else {
