@@ -56,7 +56,7 @@
 //     current_word = words[current_word_index];
 //     current_plain_word = plain_words[current_word_index];
 //     process_data(await fetch_word());
-//     play_word();
+//     setTimeout(play_word, 2000);
 //   }
   
 //   let non_alpha_regex = /[^a-zA-Z]/;
@@ -129,7 +129,7 @@ window.onload = async () => {
     current_word = "voluminous";
     current_plain_word = "voluminous";
     process_data();
-    play_word();
+    setTimeout(play_word, 2000);
   }
   
   let non_alpha_regex = /[^a-zA-Z]/;
