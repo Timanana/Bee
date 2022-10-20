@@ -33,8 +33,8 @@ window.onload = async () => {
   let audio_letter_regex = /^[a-zA-Z]/;
   
   function format_audio(audio) {
-    if (audio.startswith("bix")) return "bix";
-    else if (audio.startswith("gg")) return "gg";
+    if (audio.startsWith("bix")) return "bix";
+    else if (audio.startsWith("gg")) return "gg";
     else if (audio_letter_regex.test(audio)) return audio[0];
     else return "number";
   }
