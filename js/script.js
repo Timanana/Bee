@@ -59,6 +59,8 @@ window.onload = async () => {
   }
 
   async function load_word() {
+    document.getElementById("word").value = "";
+    
     current_word_index = generate_word_index();
     current_word = words[current_word_index];
     current_plain_word = plain_words[current_word_index];
