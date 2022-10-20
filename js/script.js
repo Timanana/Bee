@@ -87,7 +87,7 @@ window.onload = async () => {
     if (event.key === "Enter") check_word();
   });
   
-  document.getElementById("submit").addEventListener("keypress", check_word);
+  document.getElementById("submit").addEventListener("click", check_word);
   
   document.getElementById("fail").addEventListener("click", () => {
     document.getElementById("word").value = current_word;
