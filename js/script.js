@@ -1,5 +1,4 @@
 window.onload = async () => {
-  let plain_words = await fetch("data/bee3plain.txt").then(e => e.text()).then(e => e.split("\n"));
   let words = await fetch("data/bee3.txt").then(e => e.text()).then(e => e.split("\n"));
   let words_number = words.length;
   
@@ -8,7 +7,6 @@ window.onload = async () => {
   }
   
   let current_word;
-  let current_word_index;
   let current_plain_word;
   
   let current_word_audio;
@@ -43,12 +41,20 @@ window.onload = async () => {
     document.getElementById("def").innerHTML = definitions.map(definition => `<p class="mb-2">${definition}</p>`).join("");
   }
   
+  let non_alpha_regex = /[^a-zA-Z]/g;
+  
+  function clean_word(word) {
+    return word.replaceAll(non_alpha_regex, "").toLowerCase();
+  }
+  
   function process_data(data) {
     try {
       let audio = data[0].hwi.prs[0].sound.audio;
       assign_word_audio(`https://media.merriam-webster.com/audio/prons/en/us/mp3/${format_audio(audio)}/${audio}.mp3`);
     
       display_word_definitions(data[0].shortdef);
+      
+      current_plain_word = clean_word(data[0].meta.id)
       
       return true;
     } catch {
@@ -61,17 +67,9 @@ window.onload = async () => {
   async function load_word() {
     document.getElementById("word").value = "";
     
-    current_word_index = generate_word_index();
-    current_word = words[current_word_index];
-    current_plain_word = plain_words[current_word_index];
+    current_word = words[generate_word_index()];
     if (!process_data(await fetch_word())) return;
     setTimeout(play_word, 1000);
-  }
-  
-  let non_alpha_regex = /[^a-zA-Z]/g;
-  
-  function clean_word(word) {
-    return word.replaceAll(non_alpha_regex, "").toLowerCase();
   }
   
   function check_word() {
