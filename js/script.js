@@ -13,6 +13,8 @@ window.onload = async () => {
   
   let current_word_audio;
   
+  let current_word_definitions;
+  
   function assign_word_audio(file) {
     current_word_audio = new Audio(file);
   }
@@ -20,6 +22,9 @@ window.onload = async () => {
   function play_word() {
     current_word_audio.play();
   }
+  
+  let correct_audio = new Audio("audio/correct.mp3");
+  let incorrect_audio = new Audio("audio/incorrect.mp3");
   
   function fetch_word() {
     return fetch(`https://www.dictionaryapi.com/api/v3/references/collegiate/json/${current_word}?key=APIKEY`).then(e => e.json());
@@ -35,9 +40,15 @@ window.onload = async () => {
     else return "number";
   }
   
+  function display_word_definitions(definitions) {
+    document.getElementById("def").innerHTML = definitions.map(definition => `<p class="mb-2">${definition}</p>`).join("");
+  }
+  
   function process_data(data) {
     let audio = data.hwi.prs[0].sound.audio;
     assign_word_audio(`https://media.merriam-webster.com/audio/prons/en/us/mp3/${format_audio(audio)}/${audio}.mp3`);
+    
+    display_word_definitions(data.shortdef);
   }
 
   async function load_word() {
@@ -56,9 +67,10 @@ window.onload = async () => {
   
   function check_word() {
     if (clean_word(document.getElementById("word").value) == current_plain_word) {
-      // notify user of success, give them a new problem
+      correct_audio.play();
+      load_word();
     } else {
-      // allow user to see what was the FIRST WRONG LETTER, do not necessarily give them the right answer
+      incorrect_audio.play();
     }
   }
   
@@ -70,5 +82,7 @@ window.onload = async () => {
     load_word();
   });
   
-  // handle input (when you click on listen again, play the audio again)
+  document.getElementById("listen").addEventListener("click", () => {
+    play_word();
+  });
 }
